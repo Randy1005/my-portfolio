@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+# Introduction
 
-You can use the [editor on GitHub](https://github.com/Randy1005/my-portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Link to each section
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
@@ -28,10 +27,12 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## 1. Ziggy's Adventure (Spring 2020)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Randy1005/my-portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 2. Poocman (Fall 2019)
 
-### Support or Contact
+## 3. Shadow Mapping / Normal Mapping / Parallax Mapping Implementation with Collision Detection (Spring 2019)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 4. 3D Vision Check Game (Spring 2018)
+
+## 5. Taiko Master (Fall 2016) 
