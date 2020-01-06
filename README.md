@@ -28,6 +28,13 @@ Syntax highlighted code block
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ## 1. Ziggy's Adventure (Spring 2020)
+### Intro
+After the release of "Inside" by Playdead Studio, I've always wondered what it's like to make a platformer, so here it is, "Ziggy's Adventure". I made this with Qt as the graphical framework and Box2D as the physics engine. I borrowed the basic settings from a course project I made in 2016, which is an "Angrybird" game.
+
+### Design Statement
+### Demo Clip
+### Repository URL
+### Install / Download Instructions
 
 ## 2. Poocman (Fall 2019)
 
