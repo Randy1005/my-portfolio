@@ -41,8 +41,19 @@ To handle the collisions, I created "ContactListener", which inherits from "b2Co
 To sum up, Box2D is quite a powerful physics engine, though setting up basic attributes for the physics bodies is heavy work, and the coordinate converting took up a lot of time, because the coordinate system designed in Qt and Box2D are entirely different. Fixing the setting problems (though not all of them, the physics body shapes are actually still a bit off) and seeing the game objects bouncing around made me really exciting, because I felt a bit more closer to making a real game.
 
 ### Demo Clip
+[![](http://img.youtube.com/vi/OWG2oOFKxKE/0.jpg)](http://www.youtube.com/watch?v=OWG2oOFKxKE "Ziggy's Adventure")
+
 ### Repository URL
+https://github.com/Randy1005/Example-code-for-Project-3
+
 ### Install / Download Instructions
+- install Git for Windows
+- run Git Bash anywhere and type in the following command:
+```
+  git clone https://github.com/Randy1005/Example-code-for-Project-3.git
+```
+- the executable file will be in Example-code-for-Project-3/ziggyAdventureRelease/ziggysAdventure.exe
+- run the executable file
 
 ## 2. Poocman (Fall 2019)
 ### Intro
