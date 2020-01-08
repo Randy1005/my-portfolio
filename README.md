@@ -44,7 +44,7 @@ To sum up, Box2D is quite a powerful physics engine, though setting up basic att
 [![](http://img.youtube.com/vi/OWG2oOFKxKE/0.jpg)](http://www.youtube.com/watch?v=OWG2oOFKxKE "Ziggy's Adventure")
 
 ### Repository URL
-https://github.com/Randy1005/Example-code-for-Project-3
+[Ziggy's Adventure](https://github.com/Randy1005/Example-code-for-Project-3)
 
 ### Install / Download Instructions
 - install Git for Windows
@@ -52,7 +52,7 @@ https://github.com/Randy1005/Example-code-for-Project-3
 ```
   git clone https://github.com/Randy1005/Example-code-for-Project-3.git
 ```
-- the executable file will be in Example-code-for-Project-3/ziggyAdventureRelease/ziggysAdventure.exe
+- the executable file will be in *Example-code-for-Project-3/ziggyAdventureRelease/ziggysAdventure.exe*
 - run the executable file
 
 ## 2. Poocman (Fall 2019)
@@ -69,8 +69,19 @@ Also, animation is an element that I can’t miss out in this project. Instead o
 To sum up, I gave up to what I used to do with sprite animations, and figure out a framework for myself. Also regarding the game characters, different from what I used to do, which is create a different class for each of them (and that’s obviously a bad coding style), I put inheritance into use this time. Just like what our course instructor said, “Small games, big thoughts”, think bigger, and even the game scale was no bigger than projects I did before, I certainly had more fun.
 
 ### Demo Clip
+[![](http://img.youtube.com/vi/Gor8nSBUJLY/0.jpg)](http://www.youtube.com/watch?v=Gor8nSBUJLY "Poocman")
+
 ### Repository URL
+[Poocman](https://github.com/Randy1005/poocman)
+
 ### Install / Download Instructions
+- install Git for Windows
+- run Git Bash anywhere and type in the following command
+```
+  git clone https://github.com/Randy1005/poocman.git
+```
+- the executable file will be in *poocman/poocmanRelease/poocman.exe*
+- run the executable file
 
 
 
