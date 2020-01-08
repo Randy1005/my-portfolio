@@ -84,8 +84,10 @@ To sum up, I gave up to what I used to do with sprite animations, and figure out
 - run the executable file
 
 
-
 ## 3. Shadow Mapping / Normal Mapping / Parallax Mapping Implementation with Collision Detection (Spring 2019)
+### Intro
+This project was made as a final course project when I attended "Practical Skills for Technical Artists", and this was built as a team project
+
 
 ## 4. 3D Vision Check Game (Spring 2018)
 
