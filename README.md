@@ -86,7 +86,43 @@ To sum up, I gave up to what I used to do with sprite animations, and figure out
 
 ## 3. Shadow Mapping / Normal Mapping / Parallax Mapping Implementation with Collision Detection (Spring 2019)
 ### Intro
-This project was made as a final course project when I attended "Practical Skills for Technical Artists", and this was built as a team project
+This project was made as a final course project when I attended "Practical Skills for Technical Artists", and this was built as a team project with OpenGL. Normal Mapping and Parallax Mapping are different methods to make textures on a flat sheet "stick out", that is, to make it three-dimensional. Shadow Mapping is a method to create shadows in a scene, with the help of a depth map of the scene, and other optimization steps. As we demonstrate these implementations by making a 3D maze simulator, I coded collision detection, camera, and rendered the maze.
+
+### Design Statement
+Since textures improving and shadow mapping can be done in separate projects, first we decided to split tracks, two of us work on normal mapping and parallax mapping, the other teammate and I work on collision detection and shadow mapping. As my teammate finished the implementation of shadow mapping quite fast, we started to work on collision detections and game camera. Camera was not an initially integrated concept in OpenGL, but we browsed some tutorials and managed to code it by calculating the camera coordinates and matrices. Collision Detection was a lot more easier. Based on the maze we rendered, the cells are all consistently cubes, so we applied the basic Axis-Aligned Bounding Box (AABB) method, and this made the border checking easy enough to implement. As both tracks of our team reached our final stage of development, merging the project actually took little time, because all there was left to do was to apply the enhanced texture to the cubes in the maze, and readjust some parameters for the camera instance and shadow mapping. In summary, we managed to demonstrate all the concepts we learned in class, and it's quite fascinating that flat sprites can be converted to three-dimensional textures by calculating height maps, also I gained a basic knowledge of how shadows are created in games and CGI movies.
+
+### Demo Clip
+[![](http://img.youtube.com/vi/XoElVAiN2Dc/0.jpg)](http://www.youtube.com/watch?v=XoElVAiN2Dc "Shadow Mapping, Normal Mapping, Parallax Mapping (3D Maze Sim)")
+
+### Repository URL
+[3D Maze Simulator with OpenGL](https://github.com/eric8607242/Opengl_mapping_implementation)
+
+### Install / Download Instructions
+#### Requirement
+1. cmake
+2. conan - package manager
+```bash
+pip3 install conan
+```
+3. download package
+```bash
+mkdir build && cd build
+conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan
+conan install .. --build glad -sbuild_type=Debug
+```
+*P.S Linux Environment Recommended*
+
+#### Configure
+```bash
+cd build
+cmake .. 
+```
+
+#### Build
+```bash
+cd build
+cmake --build .
+```
 
 
 ## 4. 3D Vision Check Game (Spring 2018)
