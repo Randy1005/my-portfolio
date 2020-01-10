@@ -99,6 +99,7 @@ Since textures improving and shadow mapping can be done in separate projects, fi
 
 ### Install / Download Instructions
 #### Requirement
+*P.S Linux Environment Recommended*
 1. cmake
 2. conan - package manager
 ```bash
@@ -110,7 +111,7 @@ mkdir build && cd build
 conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan
 conan install .. --build glad -sbuild_type=Debug
 ```
-*P.S Linux Environment Recommended*
+
 
 #### Configure
 ```bash
@@ -126,5 +127,14 @@ cmake --build .
 
 
 ## 4. 3D Vision Check Game (Spring 2018)
+### Intro
+This was a project done by me and another classmate when we were taking the course "C# Programming", and it's the first project we've done with Unity Engine. We came across this game that does myopia examination with dropping objects, and the less time spent finding the opening, the higher score we get, then we decided to make a 3D version of this game.
+
+### Design Statement
+Our game can be divided to the following parts: game menu, main game, special abilities, collectables. My teammate programmed the main game, creating the game's general playability, and I programmed special abilities ,added collectable items, and added some special physical effects. Before switching to Unity Engine, which is a professional game engine, we've already used some other Graphical User Interfaces(e.g. Qt). The biggest difference we noticed is that Unity Engine has built-in timer-based methods, which normally we need to implement it ourselves in other GUIs, since they weren't meant to be used to develop games. Also, Unity Engine integrated physics bodies as components of an object, which normally we need to connect to a external physics library back in GUIs.  
+
+### Demo Clip
+### Repository URL
+### Install / Download Instructions
 
 ## 5. Taiko Master (Fall 2016) 
