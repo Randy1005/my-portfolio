@@ -1,12 +1,6 @@
 # Prelogue
 Feel free to look around! This isn't much but this is where I play around with various styles of game designing, and let us begin.
 
-# Link to each section
-+ [Ziggy's Adventure with Qt/C++/Box2D](#-----1-----)
-+ [Poocman with Qt/C++](#-----2-----)
-+ [Shadow Mapping, Normal Mapping, Parallax Mapping, Collision Detection with OpenGL ](#-----3-----)
-+ [3D Vision Checking Game with Unity](#-----4-----)
-+ [Taiko Master with Qt/C++](#-----5-----)
 
 ## -----1-----
 ## Ziggy's Adventure (Spring 2020)
@@ -42,7 +36,6 @@ To sum up, Box2D is quite a powerful physics engine, though setting up basic att
 + Space bar to perform sword attack
 + S key to launch destruction wave
 
-#### [top](#Prelogue)
 
 ## -----2-----
 ## Poocman (Fall 2019)
@@ -73,7 +66,6 @@ To sum up, I gave up to what I used to do with sprite animations, and figure out
 - the executable file will be in *poocman/poocmanRelease/poocman.exe*
 - run the executable file
 
-#### [top](#Prelogue)
 
 ## -----3-----
 ## Shadow Mapping / Normal Mapping / Parallax Mapping Implementation with Collision Detection
@@ -90,7 +82,7 @@ As both tracks of our team reached our final stage of development, merging the p
 In summary, we managed to demonstrate all the concepts we learned in class, and it's quite fascinating that flat sprites can be converted to three-dimensional textures by calculating height maps, also I gained a basic knowledge of how shadows are created in games and CGI movies.
 
 ### Demo Clip
-[![](http://img.youtube.com/vi/XoElVAiN2Dc/0.jpg)](http://www.youtube.com/watch?v=XoElVAiN2Dc "Shadow Mapping, Normal Mapping, Parallax Mapping (3D Maze Sim)")
+[![](http://img.youtube.com/vi/XoElVAiN2Dc/0.jpg)](http://www.youtube.com/watch?v=XoElVAiN2Dc "Shadow Mapping, Normal Mapping, Parallax Mapping (3D Maze Simulator)")
 
 ### Repository URL
 [3D Maze Simulator with OpenGL](https://github.com/eric8607242/Opengl_mapping_implementation)
@@ -126,7 +118,6 @@ cmake --build .
 + mouse to look around
 + Tab to toggle menu (Enable/Disable Normal, Parallax Mapping)
 
-#### [top](#Prelogue)
 
 ## -----4-----
 ## 3D Vision Check Game (Spring 2018)
@@ -153,7 +144,6 @@ Professional game engines like Unity open up a new vision for technical artists,
 - the executable file will be in *3DSightChecking/output/game.exe*
 - run the executable file
 
-#### [top](#Prelogue)
 
 ## -----5-----
 ## Taiko Master (Fall 2016) 
@@ -185,4 +175,3 @@ Basically, the importance of this Taiko Master project to me is that I learned t
 - the executable file taiko_master.exe will be in pd2-Taiko/taikoMasterRelease/taiko_master.exe
 - run the executable file
 
-#### [top](#Prelogue)
