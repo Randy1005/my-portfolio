@@ -168,3 +168,30 @@ Professional game engines like Unity open up a new vision for technical artists,
 
 
 ## 5. Taiko Master (Fall 2016) 
+### Intro
+"Taiko Master" was a course project I did when attending my second program design class, which I first get in touch with C++. The coding style might seem a bit "unpolished", but it's a perfect example for me to learn timer concepts, manipulation of graphical components, processing user inputs, and creating a game scene.
+
+### Design Statement
+Taiko Master is a simple remake of the Japanese music arcade game “Taiko No Tatsujin”, which players catch up with the music rhythm and eliminate icons on the screen with drum beats. My own version of Taiko Master requires player to eliminate 4 different kind of faces with S, D, K, L on the keyboard.
+
+First of all, for the different faces, I created the “Bigi” class inheriting “QGraphicsPixmapItem” for appearances of the faces. As for the movement of the faces, Qt provides SIGNALs and SLOTs, which are basically emitters and receivers, so I defined “advance()” as the slot in Bigi objects, and when the timer object fires a timeout, it also emits a signal that triggers “advance()”, and I simply update the position of the graphic items.
+
+Also, instead of using the scene class provided by Qt “QGraphicsScene”, I inherited “QGraphicsScene” and put in some scene setting methods, and implemented key, mouse pressing events. The method of generating the Bigi objects “geneBigi” is also in this scene class. Furthermore, the detection of the Bigi objects hitting the hitbox is also done in this scene class.
+
+Basically, the importance of this Taiko Master project to me is that I learned to apply object oriented concepts to making games. The “Bigi” objects  and other background objects all inherit “QGraphicsPixmapItem”, but only the “Bigi” objects possess the SLOTs “advance” so they can move around as the timer fires signals. There certainly is some optimization left to be done, but the basic framework guided me to more game programming later in college, either with real game engines or Java IDEs or Javascript component designs.
+
+### Demo Clip
+[![](http://img.youtube.com/vi/neQ5vuwoINQ/0.jpg)](http://www.youtube.com/watch?v=neQ5vuwoINQ "Taiko Master in Qt/C++")
+
+### Repository URL
+[Taiko Master](https://github.com/Randy1005/pd2-Taiko)
+
+### Install / Download Instructions
+- install Git for Windows
+- run Git Bash or GUI by right-clicking anywhere
+- clone the project by running the following command
+```
+    git clone https://github.com/Randy1005/pd2-Taiko.git
+```
+- the executable file taiko_master.exe will be in pd2-Taiko/taikoMasterRelease/taiko_master.exe
+- run the executable file
