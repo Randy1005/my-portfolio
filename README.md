@@ -1,10 +1,12 @@
 # Prelogue
 Feel free to look around! This isn't much but this is where I play around with various styles of game designing, and let us begin.
-[Ziggy's Adventure with Qt/C++/Box2D](#-----1-----)
-[Poocman with Qt/C++](#-----2-----)
-[Shadow Mapping, Normal Mapping, Parallax Mapping, Collision Detection with OpenGL ](#-----3-----)
-[3D Vision Checking Game with Unity](#-----4-----)
-[Taiko Master with Qt/C++](#-----5-----)
+
+# Link to each section
++ [Ziggy's Adventure with Qt/C++/Box2D](#-----1-----)
++ [Poocman with Qt/C++](#-----2-----)
++ [Shadow Mapping, Normal Mapping, Parallax Mapping, Collision Detection with OpenGL ](#-----3-----)
++ [3D Vision Checking Game with Unity](#-----4-----)
++ [Taiko Master with Qt/C++](#-----5-----)
 
 ## -----1-----
 ## Ziggy's Adventure (Spring 2020)
@@ -40,6 +42,8 @@ To sum up, Box2D is quite a powerful physics engine, though setting up basic att
 + Space bar to perform sword attack
 + S key to launch destruction wave
 
+#### [top](#Prelogue)
+
 ## -----2-----
 ## Poocman (Fall 2019)
 ### Intro
@@ -68,6 +72,8 @@ To sum up, I gave up to what I used to do with sprite animations, and figure out
 ```
 - the executable file will be in *poocman/poocmanRelease/poocman.exe*
 - run the executable file
+
+#### [top](#Prelogue)
 
 ## -----3-----
 ## Shadow Mapping / Normal Mapping / Parallax Mapping Implementation with Collision Detection
@@ -103,8 +109,6 @@ mkdir build && cd build
 conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan
 conan install .. --build glad -sbuild_type=Debug
 ```
-
-
 #### Configure
 ```bash
 cd build
@@ -121,6 +125,8 @@ cmake --build .
 + W, A, S, D to move around
 + mouse to look around
 + Tab to toggle menu (Enable/Disable Normal, Parallax Mapping)
+
+#### [top](#Prelogue)
 
 ## -----4-----
 ## 3D Vision Check Game (Spring 2018)
@@ -146,6 +152,8 @@ Professional game engines like Unity open up a new vision for technical artists,
 ```
 - the executable file will be in *3DSightChecking/output/game.exe*
 - run the executable file
+
+#### [top](#Prelogue)
 
 ## -----5-----
 ## Taiko Master (Fall 2016) 
@@ -176,3 +184,5 @@ Basically, the importance of this Taiko Master project to me is that I learned t
 ```
 - the executable file taiko_master.exe will be in pd2-Taiko/taikoMasterRelease/taiko_master.exe
 - run the executable file
+
+#### [top](#Prelogue)
