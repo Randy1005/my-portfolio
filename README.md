@@ -1,14 +1,9 @@
 # Prelogue
 Feel free to look around! This isn't much but this is where I play around with various styles of game designing, and let us begin.
 
-# Link to each section
-[Ziggy's Adventure](#Ziggy's Adventure)
-[Poocman](#Poocman)
-[Shadow Mapping/Normal Mapping/Parallax Mapping with OpenGL](#Shadow Mapping / Normal Mapping / Parallax Mapping Implementation with Collision Detection)
+[asdasd](#-----2-----)
 
-
-
-
+## -----1-----
 ## Ziggy's Adventure
 ### Intro
 After the release of "Inside" by Playdead Studio, I've always wondered what it's like to make a platformer, so here it is, "Ziggy's Adventure". I made this with Qt as the graphical framework and Box2D as the physics engine. I borrowed the basic settings from a course project I made in 2016, which is an "Angrybird" game.
@@ -42,6 +37,7 @@ To sum up, Box2D is quite a powerful physics engine, though setting up basic att
 + Space bar to perform sword attack
 + S key to launch destruction wave
 
+## -----2-----
 ## Poocman
 ### Intro
 This was a project I came up with when I graduated from university and wanted to make something with better style of coding. I wanted to integrate algorithms and modularized programming while working on this project, so with a simple Pacman-like game, I did my best to accomplish these goals I set for myself.
