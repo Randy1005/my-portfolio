@@ -2,11 +2,11 @@
 Feel free to look around! This isn't much but this is where I play around with various styles of game designing, and let us begin.
 
 # Link to each section
-[here](#1.-Ziggy's-Adventure)
+[here](#Ziggy's-Adventure)
 
 
 
-## 1. Ziggy's Adventure (Spring 2020)
+## Ziggy's Adventure
 ### Intro
 After the release of "Inside" by Playdead Studio, I've always wondered what it's like to make a platformer, so here it is, "Ziggy's Adventure". I made this with Qt as the graphical framework and Box2D as the physics engine. I borrowed the basic settings from a course project I made in 2016, which is an "Angrybird" game.
 
