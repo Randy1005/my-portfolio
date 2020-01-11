@@ -2,7 +2,7 @@
 Feel free to look around! This isn't much but this is where I play around with various styles of game designing, and let us begin.
 
 # Link to each section
-[here](#Ziggy's-Adventure)
+[here](#Poocman)
 
 
 
@@ -39,7 +39,7 @@ To sum up, Box2D is quite a powerful physics engine, though setting up basic att
 + Space bar to perform sword attack
 + S key to launch destruction wave
 
-## 2. Poocman (Fall 2019)
+## Poocman
 ### Intro
 This was a project I came up with when I graduated from university and wanted to make something with better style of coding. I wanted to integrate algorithms and modularized programming while working on this project, so with a simple Pacman-like game, I did my best to accomplish these goals I set for myself.
 
