@@ -1,10 +1,13 @@
 # Prelogue
 Feel free to look around! This isn't much but this is where I play around with various styles of game designing, and let us begin.
-
-[asdasd](#-----2-----)
+[Ziggy's Adventure with Qt/C++/Box2D](#-----1-----)
+[Poocman with Qt/C++](#-----2-----)
+[Shadow Mapping, Normal Mapping, Parallax Mapping, Collision Detection with OpenGL ](#-----3-----)
+[3D Vision Checking Game with Unity](#-----4-----)
+[Taiko Master with Qt/C++](#-----5-----)
 
 ## -----1-----
-## Ziggy's Adventure
+## Ziggy's Adventure (Spring 2020)
 ### Intro
 After the release of "Inside" by Playdead Studio, I've always wondered what it's like to make a platformer, so here it is, "Ziggy's Adventure". I made this with Qt as the graphical framework and Box2D as the physics engine. I borrowed the basic settings from a course project I made in 2016, which is an "Angrybird" game.
 
@@ -38,7 +41,7 @@ To sum up, Box2D is quite a powerful physics engine, though setting up basic att
 + S key to launch destruction wave
 
 ## -----2-----
-## Poocman
+## Poocman (Fall 2019)
 ### Intro
 This was a project I came up with when I graduated from university and wanted to make something with better style of coding. I wanted to integrate algorithms and modularized programming while working on this project, so with a simple Pacman-like game, I did my best to accomplish these goals I set for myself.
 
@@ -66,7 +69,7 @@ To sum up, I gave up to what I used to do with sprite animations, and figure out
 - the executable file will be in *poocman/poocmanRelease/poocman.exe*
 - run the executable file
 
-
+## -----3-----
 ## Shadow Mapping / Normal Mapping / Parallax Mapping Implementation with Collision Detection
 ### Intro
 This project was made as a final course project when I attended "Practical Computer Graphics Skills for Technical Artists", and this was built as a team project with OpenGL. Normal Mapping and Parallax Mapping are different methods to make textures on a flat sheet "stick out", that is, to make it three-dimensional. Shadow Mapping is a method to create shadows in a scene, with the help of a depth map of the scene, and other optimization steps. As we demonstrate these implementations by making a 3D maze simulator, I coded collision detection, camera, and rendered the maze.
@@ -119,8 +122,8 @@ cmake --build .
 + mouse to look around
 + Tab to toggle menu (Enable/Disable Normal, Parallax Mapping)
 
-
-## 4. 3D Vision Check Game (Spring 2018)
+## -----4-----
+## 3D Vision Check Game (Spring 2018)
 ### Intro
 This was a project done by me and another classmate when we were taking the course "C# Programming", and it's the first project we've done with Unity Engine. We came across this game that does myopia examination with dropping objects, and the less time spent finding the opening, the higher score we get, then we decided to make a 3D version of this game.
 
@@ -144,8 +147,8 @@ Professional game engines like Unity open up a new vision for technical artists,
 - the executable file will be in *3DSightChecking/output/game.exe*
 - run the executable file
 
-
-## 5. Taiko Master (Fall 2016) 
+## -----5-----
+## Taiko Master (Fall 2016) 
 ### Intro
 "Taiko Master" was a course project I did when attending my second program design class, which I first get in touch with C++. The coding style might seem a bit "unpolished", but it's a perfect example for me to learn timer concepts, manipulation of graphical components, processing user inputs, and creating a game scene.
 
