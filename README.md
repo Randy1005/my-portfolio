@@ -1,8 +1,11 @@
-# Introduction
+# Prelogue
 Feel free to look around! This isn't much but this is where I play around with various styles of game designing, and let us begin.
 
 # Link to each section
-[here](#Poocman)
+[Ziggy's Adventure](#Ziggy's Adventure)
+[Poocman](#Poocman)
+[Shadow Mapping/Normal Mapping/Parallax Mapping with OpenGL](#Shadow Mapping / Normal Mapping / Parallax Mapping Implementation with Collision Detection)
+
 
 
 
@@ -68,7 +71,7 @@ To sum up, I gave up to what I used to do with sprite animations, and figure out
 - run the executable file
 
 
-## 3. Shadow Mapping / Normal Mapping / Parallax Mapping Implementation with Collision Detection (Spring 2019)
+## Shadow Mapping / Normal Mapping / Parallax Mapping Implementation with Collision Detection
 ### Intro
 This project was made as a final course project when I attended "Practical Computer Graphics Skills for Technical Artists", and this was built as a team project with OpenGL. Normal Mapping and Parallax Mapping are different methods to make textures on a flat sheet "stick out", that is, to make it three-dimensional. Shadow Mapping is a method to create shadows in a scene, with the help of a depth map of the scene, and other optimization steps. As we demonstrate these implementations by making a 3D maze simulator, I coded collision detection, camera, and rendered the maze.
 
