@@ -1,31 +1,10 @@
 # Introduction
+Feel free to look around! This isn't much but this is where I play around with various styles of game designing, and let us begin.
 
-## Link to each section
+# Link to each section
+[here](# 1. Ziggy's-Adventure (Spring 2020))
 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ## 1. Ziggy's Adventure (Spring 2020)
 ### Intro
