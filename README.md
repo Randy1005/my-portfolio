@@ -55,6 +55,11 @@ To sum up, Box2D is quite a powerful physics engine, though setting up basic att
 - the executable file will be in *Example-code-for-Project-3/ziggyAdventureRelease/ziggysAdventure.exe*
 - run the executable file
 
+### Controls
++ Arrow keys to move, jump
++ Space bar to perform sword attack
++ S key to launch destruction wave
+
 ## 2. Poocman (Fall 2019)
 ### Intro
 This was a project I came up with when I graduated from university and wanted to make something with better style of coding. I wanted to integrate algorithms and modularized programming while working on this project, so with a simple Pacman-like game, I did my best to accomplish these goals I set for myself.
@@ -86,10 +91,16 @@ To sum up, I gave up to what I used to do with sprite animations, and figure out
 
 ## 3. Shadow Mapping / Normal Mapping / Parallax Mapping Implementation with Collision Detection (Spring 2019)
 ### Intro
-This project was made as a final course project when I attended "Practical Skills for Technical Artists", and this was built as a team project with OpenGL. Normal Mapping and Parallax Mapping are different methods to make textures on a flat sheet "stick out", that is, to make it three-dimensional. Shadow Mapping is a method to create shadows in a scene, with the help of a depth map of the scene, and other optimization steps. As we demonstrate these implementations by making a 3D maze simulator, I coded collision detection, camera, and rendered the maze.
+This project was made as a final course project when I attended "Practical Computer Graphics Skills for Technical Artists", and this was built as a team project with OpenGL. Normal Mapping and Parallax Mapping are different methods to make textures on a flat sheet "stick out", that is, to make it three-dimensional. Shadow Mapping is a method to create shadows in a scene, with the help of a depth map of the scene, and other optimization steps. As we demonstrate these implementations by making a 3D maze simulator, I coded collision detection, camera, and rendered the maze.
 
 ### Design Statement
-Since textures improving and shadow mapping can be done in separate projects, first we decided to split tracks, two of us work on normal mapping and parallax mapping, the other teammate and I work on collision detection and shadow mapping. As my teammate finished the implementation of shadow mapping quite fast, we started to work on collision detections and game camera. Camera was not an initially integrated concept in OpenGL, but we browsed some tutorials and managed to code it by calculating the camera coordinates and matrices. Collision Detection was a lot more easier. Based on the maze we rendered, the cells are all consistently cubes, so we applied the basic Axis-Aligned Bounding Box (AABB) method, and this made the border checking easy enough to implement. As both tracks of our team reached our final stage of development, merging the project actually took little time, because all there was left to do was to apply the enhanced texture to the cubes in the maze, and readjust some parameters for the camera instance and shadow mapping. In summary, we managed to demonstrate all the concepts we learned in class, and it's quite fascinating that flat sprites can be converted to three-dimensional textures by calculating height maps, also I gained a basic knowledge of how shadows are created in games and CGI movies.
+Since textures improving and shadow mapping can be done in separate projects, first we decided to split tracks, two of us work on normal mapping and parallax mapping, the other teammate and I work on collision detection and shadow mapping. As my teammate finished the implementation of shadow mapping quite fast, we started to work on collision detections and game camera. 
+
+Camera was not an initially integrated concept in OpenGL, but we browsed some tutorials and managed to code it by calculating the camera coordinates and matrices. Collision Detection was a lot more easier. Based on the maze we rendered, the cells are all consistently cubes, so we applied the basic Axis-Aligned Bounding Box (AABB) method, and this made the border checking easy enough to implement. 
+
+As both tracks of our team reached our final stage of development, merging the project actually took little time, because all there was left to do was to apply the enhanced texture to the cubes in the maze, and readjust some parameters for the camera instance and shadow mapping. 
+
+In summary, we managed to demonstrate all the concepts we learned in class, and it's quite fascinating that flat sprites can be converted to three-dimensional textures by calculating height maps, also I gained a basic knowledge of how shadows are created in games and CGI movies.
 
 ### Demo Clip
 [![](http://img.youtube.com/vi/XoElVAiN2Dc/0.jpg)](http://www.youtube.com/watch?v=XoElVAiN2Dc "Shadow Mapping, Normal Mapping, Parallax Mapping (3D Maze Sim)")
@@ -125,16 +136,35 @@ cd build
 cmake --build .
 ```
 
+### Controls
++ W, A, S, D to move around
++ mouse to look around
++ Tab to toggle menu (Enable/Disable Normal, Parallax Mapping)
+
 
 ## 4. 3D Vision Check Game (Spring 2018)
 ### Intro
 This was a project done by me and another classmate when we were taking the course "C# Programming", and it's the first project we've done with Unity Engine. We came across this game that does myopia examination with dropping objects, and the less time spent finding the opening, the higher score we get, then we decided to make a 3D version of this game.
 
 ### Design Statement
-Our game can be divided to the following parts: game menu, main game, special abilities, collectables. My teammate programmed the main game, creating the game's general playability, and I programmed special abilities ,added collectable items, and added some special physical effects. Before switching to Unity Engine, which is a professional game engine, we've already used some other Graphical User Interfaces(e.g. Qt). The biggest difference we noticed is that Unity Engine has built-in timer-based methods, which normally we need to implement it ourselves in other GUIs, since they weren't meant to be used to develop games. Also, Unity Engine integrated physics bodies as components of an object, which normally we need to connect to a external physics library back in GUIs.  
+Our game can be divided to the following parts: game menu, main game, special abilities, collectables. My teammate programmed the main game, creating the game's general playability, and I programmed special abilities ,added collectable items, and added some special physical effects. Before switching to Unity Engine, which is a professional game engine, we've already used some other Graphical User Interfaces(e.g. Qt). The biggest difference we noticed is that Unity Engine has built-in timer-based methods, which normally we need to implement it ourselves in other GUIs, since they weren't meant to be used to develop games. Also, Unity Engine integrated physics bodies as components of an object, which normally we need to connect to a external physics library back in GUIs. 
+
+Professional game engines like Unity open up a new vision for technical artists, but besides the fascinating features, game engines also inspired me to look more into the field of Computer Graphics, which lead to me attending the course "Practical Computer Graphics Skills for Technical Artists".
 
 ### Demo Clip
+[![](http://img.youtube.com/vi/lrxwcvE3swc/0.jpg)](http://www.youtube.com/watch?v=lrxwcvE3swc "3D Vision Check Game with Unity Engine")
+
 ### Repository URL
+[3D Vision Check Game with Unity Engine](https://bitbucket.org/randy1005/3dsightchecking/src/master/)
+
 ### Install / Download Instructions
+- install Git for Windows
+- run Git Bash anywhere and type in the following command
+```
+  git clone https://bitbucket.org/randy1005/3dsightchecking.git
+```
+- the executable file will be in *3DSightChecking/output/game.exe*
+- run the executable file
+
 
 ## 5. Taiko Master (Fall 2016) 
