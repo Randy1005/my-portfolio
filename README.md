@@ -2,7 +2,7 @@
 Feel free to look around! This isn't much but this is where I play around with various styles of game designing, and let us begin.
 
 # Link to each section
-[here](# 1. Ziggy's-Adventure (Spring 2020))
+[here](# 1. Ziggy's-Adventure)
 
 
 
